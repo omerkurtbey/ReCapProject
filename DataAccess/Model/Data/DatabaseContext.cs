@@ -14,6 +14,9 @@ namespace DataAccess.Model.Data
         public DbSet<Color> Colors { get; set; }
         public DbSet<BrandColor> BrandColors { get; set; }
         public DbSet<CarColor> CarColors { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Rental> Rentals { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
